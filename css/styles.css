@@ -34,7 +34,7 @@ body {
 }
 
 .main__img{
-  width: auto;
+  width: 300px;
 }
 
 @media (min-width: 576px) {
@@ -44,6 +44,17 @@ body {
     object-fit: cover;
   }
 }
+
+.galeria{
+	background-color: #b4c28f;
+	padding: 10px 0;
+  }
+  
+  @media(min-width: 1024px){
+	.galeria{
+	  padding: 40px 60px;
+	}
+  }
 
 .footer__content{
 	padding: 5px;
