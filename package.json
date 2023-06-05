@@ -1,0 +1,19 @@
+{
+  "name": "proyecto_preentrega3",
+  "version": "1.0.0",
+  "description": "preentrega3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasilvac/PreEntrega3_Silva.git"
+  },
+  "author": "Wilmar Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasilvac/PreEntrega3_Silva/issues"
+  },
+  "homepage": "https://github.com/wasilvac/PreEntrega3_Silva#readme"
+}

@@ -1,1 +1,100 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__bg {
+  background-color: #cc833e;
+  background-blend-mode: multiply, multiply, normal;
+}
+
+.navbar a {
+  color: rgba(72, 53, 4, 0.9725490196);
+}
+.navbar .collapse.navbar-collapse {
+  flex-grow: inherit;
+}
+.navbar .navbar-toggler {
+  border-color: rgba(72, 53, 4, 0.9725490196);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #b4c28f;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.footer__content {
+  padding: 5px 5px;
+  background-color: #cc833e;
+}
+.footer__content p {
+  text-align: right;
+  color: rgba(72, 53, 4, 0.9725490196);
+}
+
+.principal {
+  background-color: #b4c28f;
+}
+
+.main__content {
+  height: calc(100vh - 60px - 50px);
+  background-color: #b4c28f;
+}
+.main__img {
+  width: 300px;
+}
+
+@media (min-width: 576px) {
+  .main__img {
+    width: auto;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.galeria {
+  padding: 10px;
+}
+@media (min-width: 1024px) {
+  .galeria {
+    padding: 40px 60px;
+  }
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+.contact h3 {
+  text-align: center;
+}
+
+.contact-container {
+  width: 700px;
+  margin: 30px auto;
+  background: rgba(213, 112, 30, 0.4);
+  padding: 30px;
+  border-radius: 20px;
+}
+.contact-container div {
+  margin-bottom: 15px;
+}
+.contact-container label {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.contact-container input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.contact-container .enviar {
+  background-color: #ce532e;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */

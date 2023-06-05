@@ -1,0 +1,29 @@
+.header {
+    &__bg{
+	background-color: $color-primario;
+	background-blend-mode: multiply, multiply, normal;
+}
+}
+
+.navbar {
+    a {
+        color: $color-terciario;
+    }
+
+	.collapse.navbar-collapse {
+	flex-grow: inherit;
+    }
+    
+    .navbar-toggler {
+	border-color: $color-terciario;
+    }
+}
+
+.nav-link:focus,
+.nav-link:hover {
+	color: $color-secundario;
+}
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}

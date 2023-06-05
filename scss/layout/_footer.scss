@@ -1,0 +1,11 @@
+.footer{
+    &__content{
+	padding: 5px 5px;
+	background-color: $color-primario;
+    
+    p{
+	    text-align: right;
+        color: $color-terciario;
+    }
+  }
+} 
