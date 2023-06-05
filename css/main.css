@@ -97,4 +97,22 @@
   border: none;
   color: #fff;
   font-size: 20px;
+}
+
+.historia-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.historia-body {
+  display: inline-block;
+  width: 500px;
+  padding: 0 50px;
+  vertical-align: top;
+  text-align: center;
+}
+.historia-body h2 {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
