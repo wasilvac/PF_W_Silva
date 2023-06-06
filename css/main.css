@@ -93,7 +93,7 @@
   padding: 15px;
 }
 .contact-container .enviar {
-  background-color: #ce532e;
+  background-color: #cc833e;
   border: none;
   color: #fff;
   font-size: 20px;
@@ -115,4 +115,20 @@
 }
 .historia-body h2 {
   text-align: center;
+}
+
+.multimedia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0;
+  padding: 75px 0px;
+}
+
+.multimedia-container {
+  width: 600px;
+  height: 380px;
+  border: 2px solid #cc833e;
+  margin: 40px 10px;
+  padding: 0px 20px;
 }/*# sourceMappingURL=main.css.map */
