@@ -82,7 +82,7 @@
 }
 @media (max-width: 735px) {
   .contact-container {
-    width: 400px;
+    width: 375px;
   }
 }
 .contact-container div {
@@ -120,6 +120,7 @@
 @media (max-width: 735px) {
   .historia-body {
     width: 300px;
+    padding: 0 0;
   }
 }
 
