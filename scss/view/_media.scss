@@ -6,11 +6,23 @@
     padding: 75px 0px;
   }
   
-  .multimedia-container{
-    
+  .multimedia-container{    
     width: 600px;
     height: 380px;
     border: 2px solid $color-primario;
     margin: 40px 10px;
-    padding: 0px 20px;  
+    padding: 0px 20px;
+    iframe {
+      width:560px;
+      height:315px;
+      @media (max-width: 735px){
+        width: 310px;
+        height: 170px;
+      }
+    } 
+    
+    @media (max-width: 735px){
+			width: 350px;
+      height: 220px;
+    }
   }

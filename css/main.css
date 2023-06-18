@@ -67,7 +67,7 @@
 }
 
 .contact {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .contact h3 {
   text-align: center;
@@ -75,10 +75,15 @@
 
 .contact-container {
   width: 700px;
-  margin: 30px auto;
+  margin: auto auto;
   background: rgba(213, 112, 30, 0.4);
   padding: 30px;
   border-radius: 20px;
+}
+@media (max-width: 735px) {
+  .contact-container {
+    width: 400px;
+  }
 }
 .contact-container div {
   margin-bottom: 15px;
@@ -111,10 +116,16 @@
   width: 500px;
   padding: 0 50px;
   vertical-align: top;
-  text-align: center;
 }
-.historia-body h2 {
-  text-align: center;
+@media (max-width: 735px) {
+  .historia-body {
+    width: 300px;
+  }
+}
+
+.historia-img {
+  width: auto;
+  height: auto;
 }
 
 .multimedia {
@@ -131,4 +142,20 @@
   border: 2px solid #cc833e;
   margin: 40px 10px;
   padding: 0px 20px;
+}
+.multimedia-container iframe {
+  width: 560px;
+  height: 315px;
+}
+@media (max-width: 735px) {
+  .multimedia-container iframe {
+    width: 310px;
+    height: 170px;
+  }
+}
+@media (max-width: 735px) {
+  .multimedia-container {
+    width: 350px;
+    height: 220px;
+  }
 }/*# sourceMappingURL=main.css.map */

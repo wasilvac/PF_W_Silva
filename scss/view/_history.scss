@@ -10,9 +10,14 @@
 	width: 500px;
 	padding: 0 50px;
 	vertical-align: top;
-	text-align: center;
-    h2 {    
-        text-align: center;
-    }
+	@media (max-width: 735px)
+	{
+		width: 300px;
+	}
+	
 }
-  
+
+.historia-img{
+	width: auto;
+    height: auto;
+}
